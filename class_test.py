@@ -135,8 +135,6 @@ def tes(i, test_iter, net, device, num_epochs,l,p):
             pre.append(pred.item())
 
             print('%s,%d,%d' % (path[0], y, pred))
-
-            #至此，一个epoches完成
         time_aver = time_total / len(test_iter)
         (micro_accuracy, micro_precision, micro_recall, micro_f1), (macro_accuracy, macro_precision, macro_recall, macro_f1), (weighted_accuracy, weighted_precision, weighted_recall, weighted_f1) = classificationM(la, pre)
         print(classificationM(la, pre))
