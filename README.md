@@ -1,28 +1,13 @@
 # Tongue shape classification based on IF-RCNet
-by [Haowei Wang](https://github.com/WhwHcc))
-## Summary:
-### Intoduction:
-  This repository is for our preprint["Tongue Size and Shape Classification Fusing Segmentation Features for Traditional Chinese Medicine Diagnosis"](https://www.researchgate.net/publication/354694326_Tongue_Size_and_Shape_Classification_Fusing_Segmentation_Features_for_Traditional_Chinese_Medicine_Diagnosis)
-  
+by [Haowei Wang](https://github.com/WhwHcc)
 ### Framework:
-![](https://github.com/Yating-Huang/TSC-WNet/blob/main/TSC-WNet.png)
+![](https://github.com/WhwHcc/IFRCNet/blob/main/IFRCNet.png)
 
 ## Usage:
 ### Requirement:
-Ubuntu 16.04+pycharm+python3.6+pytorch1.7.1  
-### Preprocessing:
-Clone the repository:
-```
-git clone https://github.com/Yating-Huang/TSC-WNet.git
-cd TSC-WNet
-```
-## How to run:
-The only thing you should do is enter the data/image.txt and correct the path of the datasets.
-then run ~
-example:
-```
-python kfold_class.py 
-```
+pytorch 2.0.1+python 3.10.13+ numpy 1.24.3
+## To run:
+
 ### best_model folder:
 After training, the saved model is in this folder.
 
