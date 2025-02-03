@@ -1,5 +1,5 @@
 # Tongue shape classification based on IF-RCNet
-by [Haowei Wang](https://WhwHcc.github.io/))
+by [Haowei Wang](https://github.com/WhwHcc))
 ## Summary:
 ### Intoduction:
   This repository is for our preprint["Tongue Size and Shape Classification Fusing Segmentation Features for Traditional Chinese Medicine Diagnosis"](https://www.researchgate.net/publication/354694326_Tongue_Size_and_Shape_Classification_Fusing_Segmentation_Features_for_Traditional_Chinese_Medicine_Diagnosis)
