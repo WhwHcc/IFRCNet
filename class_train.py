@@ -153,7 +153,6 @@ def k_fold(k,image_dir,num_epochs,device,batch_size): #,optimizer,loss,net
 
 def evaluate_accuracy(data_iter, net, best_acc, i, loss,device=None):
     if device is None and isinstance(net, torch.nn.Module):
-        # 如果没指定device就使用net的device
         device = list(net.parameters())[0].device
     acc_sum, n = 0.0, 0
     val_l_sum = 0.0
