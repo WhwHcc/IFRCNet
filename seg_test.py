@@ -65,7 +65,7 @@ class MyDataset(torch.utils.data.Dataset):  # 创建自己的类：MyDataset,这
                 torchvision.transforms.ToTensor(),
             ])
 
-    def __getitem__(self, index):  # 这个方法是必须要有的，用于按照索引读取每个元素的具体内容
+    def __getitem__(self, index): 
         feature, label = self.imgs[index]  # fn是图片path #fn和label分别获得imgs[index]也即是刚才每行中word[0]和word[1]的信息
         path_mask = label
         path_original=feature
