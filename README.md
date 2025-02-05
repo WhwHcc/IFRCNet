@@ -7,7 +7,7 @@ and the right side is the segmentation network RCUNet,
 and the two networks are nested to form IFRCNet.
 ## Usage:
 ### Requirement:
-pytorch 2.0.1+python 3.10.13+ numpy 1.24.3
+Python 3.10 +PyTorch 1.9.0 + CUDA 11.1 + cuDNN 8.2.0
 ## To run:
 You need to create three folders: "best_model", "data", "result", "data", 
 which contain two files for the original image and mask map, 
